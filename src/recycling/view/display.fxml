@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="BorderPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recycling.view.displayController">
+    <top>
+        <VBox>
+            <CheckBox fx:id="checkA" text="A" /> 
+            <CheckBox fx:id="checkB"  text="B" /> 
+            <CheckBox fx:id="checkC"  text="C" />
+            <Button text="Ind" />  
+        </VBox>
+    </top>
+    <center>
+        <TextArea fx:id="displayArea"/>
+        <Button text="done" /> 
+    </center>
+</BorderPane>
